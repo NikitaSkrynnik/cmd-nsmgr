@@ -33,7 +33,6 @@ import (
 	"github.com/networkservicemesh/sdk/pkg/tools/log"
 	"github.com/networkservicemesh/sdk/pkg/tools/log/logruslogger"
 	"github.com/networkservicemesh/sdk/pkg/tools/log/spanlogger"
-	"github.com/networkservicemesh/sdk/pkg/tools/opentelemetry"
 )
 
 func main() {
@@ -82,17 +81,6 @@ func main() {
 	sFinish()
 
 	// Configure Open Telemetry
-	if opentelemetry.IsEnabled() {
-		collectorAddress := cfg.OpenTelemetryEndpoint
-		spanExporter := opentelemetry.InitSpanExporter(ctx, collectorAddress)
-		metricExporter := opentelemetry.InitMetricExporter(ctx, collectorAddress)
-		o := opentelemetry.Init(ctx, spanExporter, metricExporter, cfg.Name)
-		defer func() {
-			if err = o.Close(); err != nil {
-				logger.Error(err.Error())
-			}
-		}()
-	}
 
 	err = manager.RunNsmgr(ctx, cfg)
 	if err != nil {
