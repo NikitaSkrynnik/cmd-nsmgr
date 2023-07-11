@@ -14,7 +14,7 @@ cd ../..
 And then edit the go.mod file utilize a replace:
 
 ```vgo
-module github.com/networkservicemesh/cmd-forwarder-vppagent
+module github.com/NikitaSkrynnik/cmd-forwarder-vppagent
 
 go 1.13
 
@@ -22,6 +22,6 @@ require (
 ...
 )
 
-replace github.com/networkservicemesh/sdk => ./local/sdk
+replace github.com/NikitaSkrynnik/sdk => ./local/sdk
 ```
 

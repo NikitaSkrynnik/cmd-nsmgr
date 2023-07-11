@@ -24,7 +24,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/log"
 
 	nested "github.com/antonfisher/nested-logrus-formatter"
 	"github.com/sirupsen/logrus"
@@ -32,7 +32,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/spire"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/spire"
 )
 
 type NsmgrTestSuite struct {

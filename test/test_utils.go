@@ -29,13 +29,13 @@ import (
 
 	"github.com/edwarnicke/grpcfd"
 
-	"github.com/networkservicemesh/sdk/pkg/registry/common/grpcmetadata"
-	"github.com/networkservicemesh/sdk/pkg/registry/core/next"
-	"github.com/networkservicemesh/sdk/pkg/tools/grpcutils"
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
-	"github.com/networkservicemesh/sdk/pkg/tools/log/logruslogger"
-	"github.com/networkservicemesh/sdk/pkg/tools/spiffejwt"
-	"github.com/networkservicemesh/sdk/pkg/tools/token"
+	"github.com/NikitaSkrynnik/sdk/pkg/registry/common/grpcmetadata"
+	"github.com/NikitaSkrynnik/sdk/pkg/registry/core/next"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/grpcutils"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/log"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/log/logruslogger"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/spiffejwt"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/token"
 
 	"github.com/sirupsen/logrus"
 	"github.com/spiffe/go-spiffe/v2/spiffetls/tlsconfig"
@@ -47,11 +47,11 @@ import (
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/health/grpc_health_v1"
 
-	registryapi "github.com/networkservicemesh/api/pkg/api/registry"
+	registryapi "github.com/NikitaSkrynnik/api/pkg/api/registry"
 
-	"github.com/networkservicemesh/cmd-nsmgr/internal/config"
-	"github.com/networkservicemesh/cmd-nsmgr/internal/manager"
-	mockReg "github.com/networkservicemesh/cmd-nsmgr/test/mock/registry"
+	"github.com/NikitaSkrynnik/cmd-nsmgr/internal/config"
+	"github.com/NikitaSkrynnik/cmd-nsmgr/internal/manager"
+	mockReg "github.com/NikitaSkrynnik/cmd-nsmgr/test/mock/registry"
 )
 
 // TempFolder creates a temporary folder for testing purposes.

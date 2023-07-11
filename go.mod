@@ -1,15 +1,15 @@
-module github.com/networkservicemesh/cmd-nsmgr
+module github.com/NikitaSkrynnik/cmd-nsmgr
 
 go 1.20
 
 require (
+	github.com/NikitaSkrynnik/api v1.0.1-0.20230711064101-51396a9946fc
+	github.com/NikitaSkrynnik/sdk v0.5.1-0.20230711085827-4db638c6c620
 	github.com/antonfisher/nested-logrus-formatter v1.3.1
 	github.com/edwarnicke/genericsync v0.0.0-20220910010113-61a344f9bc29
 	github.com/edwarnicke/grpcfd v1.1.2
 	github.com/edwarnicke/serialize v1.0.7
 	github.com/kelseyhightower/envconfig v1.4.0
-	github.com/networkservicemesh/api v1.9.1-0.20230627143611-9785eacf9687
-	github.com/networkservicemesh/sdk v0.5.1-0.20230710100721-01bb35f8c3d6
 	github.com/sirupsen/logrus v1.9.0
 	github.com/spiffe/go-spiffe/v2 v2.0.0
 	github.com/stretchr/testify v1.8.3

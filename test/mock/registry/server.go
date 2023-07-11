@@ -24,25 +24,25 @@ import (
 	"net/url"
 	"os"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
-	"github.com/networkservicemesh/sdk/pkg/tools/token"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/log"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/token"
 
 	"github.com/edwarnicke/serialize"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/grpcutils"
-	"github.com/networkservicemesh/sdk/pkg/tools/log/logruslogger"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/grpcutils"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/log/logruslogger"
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/networkservicemesh/sdk/pkg/registry/common/authorize"
-	"github.com/networkservicemesh/sdk/pkg/registry/common/grpcmetadata"
-	"github.com/networkservicemesh/sdk/pkg/registry/common/memory"
-	"github.com/networkservicemesh/sdk/pkg/registry/common/updatepath"
-	"github.com/networkservicemesh/sdk/pkg/registry/core/chain"
+	"github.com/NikitaSkrynnik/sdk/pkg/registry/common/authorize"
+	"github.com/NikitaSkrynnik/sdk/pkg/registry/common/grpcmetadata"
+	"github.com/NikitaSkrynnik/sdk/pkg/registry/common/memory"
+	"github.com/NikitaSkrynnik/sdk/pkg/registry/common/updatepath"
+	"github.com/NikitaSkrynnik/sdk/pkg/registry/core/chain"
 
 	"google.golang.org/grpc"
 
-	"github.com/networkservicemesh/api/pkg/api/registry"
+	"github.com/NikitaSkrynnik/api/pkg/api/registry"
 )
 
 // Server mock registry server interface

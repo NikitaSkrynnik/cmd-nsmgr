@@ -41,18 +41,18 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/chains/nsmgr"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/authorize"
-	registryauthorize "github.com/networkservicemesh/sdk/pkg/registry/common/authorize"
-	"github.com/networkservicemesh/sdk/pkg/tools/grpcutils"
-	"github.com/networkservicemesh/sdk/pkg/tools/listenonurl"
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
-	authmonitor "github.com/networkservicemesh/sdk/pkg/tools/monitorconnection/authorize"
-	"github.com/networkservicemesh/sdk/pkg/tools/spiffejwt"
-	"github.com/networkservicemesh/sdk/pkg/tools/token"
-	"github.com/networkservicemesh/sdk/pkg/tools/tracing"
+	"github.com/NikitaSkrynnik/sdk/pkg/networkservice/chains/nsmgr"
+	"github.com/NikitaSkrynnik/sdk/pkg/networkservice/common/authorize"
+	registryauthorize "github.com/NikitaSkrynnik/sdk/pkg/registry/common/authorize"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/grpcutils"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/listenonurl"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/log"
+	authmonitor "github.com/NikitaSkrynnik/sdk/pkg/tools/monitorconnection/authorize"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/spiffejwt"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/token"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/tracing"
 
-	"github.com/networkservicemesh/cmd-nsmgr/internal/config"
+	"github.com/NikitaSkrynnik/cmd-nsmgr/internal/config"
 )
 
 const (
