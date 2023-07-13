@@ -24,12 +24,12 @@ import (
 	"os/signal"
 	"syscall"
 
+	"github.com/edwarnicke/debug"
 	"github.com/kelseyhightower/envconfig"
 	"github.com/sirupsen/logrus"
 
 	"github.com/NikitaSkrynnik/cmd-nsmgr/internal/config"
 	"github.com/NikitaSkrynnik/cmd-nsmgr/internal/manager"
-	"github.com/NikitaSkrynnik/sdk/pkg/tools/debug"
 	"github.com/NikitaSkrynnik/sdk/pkg/tools/log"
 	"github.com/NikitaSkrynnik/sdk/pkg/tools/log/logruslogger"
 	"github.com/NikitaSkrynnik/sdk/pkg/tools/opentelemetry"
