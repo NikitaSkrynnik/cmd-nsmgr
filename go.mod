@@ -3,7 +3,7 @@ module github.com/NikitaSkrynnik/cmd-nsmgr
 go 1.20
 
 require (
-	github.com/NikitaSkrynnik/sdk v0.5.1-0.20230717061214-871af1d0bcca
+	github.com/NikitaSkrynnik/sdk v0.5.1-0.20230717070759-d678e17a4518
 	github.com/edwarnicke/debug v1.0.0
 	github.com/edwarnicke/genericsync v0.0.0-20220910010113-61a344f9bc29
 	github.com/edwarnicke/grpcfd v1.1.2
